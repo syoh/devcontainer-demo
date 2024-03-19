@@ -1,0 +1,8 @@
+_commit: v1.4.0
+_src_path: gh:UCSB-PSTAT/devcontainer-template
+dev_language: R and Python
+include_examples: true
+project_name: minimal
+use_quarto: true
+use_rstudio: true
+use_vscode_ext: true
