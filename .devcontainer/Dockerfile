@@ -26,14 +26,7 @@ RUN apt-get update && \
         libssl-dev \
         libclang-dev \
         libpq5 \
-        libtiff-dev
-        ###################################################
-        ### Add your own system dependencies installed  ###
-        ### with `apt-get` as needed below this comment ###
-        ### Example (note the backslash after name):    ###
-        ### neofetch \                                  ###
-        ###################################################
-        && \
+        libtiff-dev && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/* /tmp/library-scripts
 
